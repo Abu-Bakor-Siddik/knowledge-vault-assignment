@@ -60,6 +60,63 @@ nav .menu a:hover{
     font-size: 50x;
     font-weight: 600;
     background-color: skyblue;
+}
+/* Banner Section */
+#banner{
+    margin: 0 auto;
+    background: url(../assets/hero-bg.png),#001931;
+    text-align: center;
+}
+#banner .banner-container{
+    /* border:1px solid black ; */
+    padding: 180px 130px 240px;
+}
+#banner .banner-container .btnA .dot{
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius:100%;
+    background: #5ba078;
+    box-shadow: 0 0 0 4px #b0dbc2;
+    margin-right: 6px;
+}
+#banner .banner-container .btnA {
+    text-align: center;
+    padding: 8px 12px 8px 34px;
+    gap: 6px;
+    justify-content: center;
+    display: inline-flex;
+    border-radius: 20px;
+    color: #469165;
+    cursor: pointer;
 
+}
+#banner .banner-container .btnA:hover {
+    text-align: center;
+    padding: 8px 12px 8px 34px;
+    gap: 6px;
+    justify-content: center;
+    display: inline-flex;
+    border-radius: 20px;
+    background-color: skyblue;
+    color: antiquewhite;
+    cursor: pointer;
 
+}
+#banner .banner-container .banner-info h1{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+}
+#banner .banner-container .banner-info h1 .text-color{
+    color: #30B868;
+}
+#banner .banner-container .banner-info .banner-info-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 0 32px;
+    text-wrap: wrap;
 }
