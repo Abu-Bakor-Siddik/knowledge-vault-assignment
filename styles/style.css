@@ -41,6 +41,7 @@ nav{
 }
 nav .logo{
     max-width: 140px;
+    margin-right: auto;
 }
 nav .menu {
     max-width: 367px;
@@ -48,6 +49,8 @@ nav .menu {
     gap: 32px;
     align-items: center;
     list-style: none;
+    margin-right: auto;
+
 }
 nav .menu a{
     font-size: 16px;
